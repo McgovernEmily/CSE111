@@ -1,0 +1,39 @@
+Second Report for a Student Chosen Project
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+=============Time Table for Planner Project====================
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2024-03-26     2     Did three functions (read_file, adding_task, display_all_tasks) 
+and two test functions (test_adding_tasks and test_read_file), and made sure they worked.
+2024-03-27     2     Did two functions( display_tday_task and mark_complete), main function and 
+finished all test functions, made sure it worked for the most part.
+2024-03-28     2     Worked on test functions that were not responding correctly, very difficult.
+2024-04-01     2.5   Trying new things to the program and failing, coming up with new ideas. Finally 
+came up with tinkter and started researching.
+2024-04-06     3     Using tinkter to add more to the program (buttons and colors) and learning about tinkter.  
+2024-04-07     2     Looking over test functions (some not working because of tinkter errors) and make sure they 
+work properly with tinkter and figuring out why text not displaying correctly.
+2024-04-08     1     Looked over everything to make sure it is ready for submitting and added comments.
+=============Time Table for Planner Project====================
+
+
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.

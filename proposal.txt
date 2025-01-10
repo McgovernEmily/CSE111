@@ -1,0 +1,112 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    
+    School Scheduler
+
+2. What real-world problem will your program address or help to solve?
+    
+    This program will help organize the homework and projects students have each week. 
+    The student will put in the assignment or project they have for the week and the
+    program will store the homework or projects into a dictionary. The student then can ask
+    for a specific day and it will show the user homework and projects that are 
+    due for that day. They can also ask for see what homework and projects they have for the whole
+    week. It will also show which priority the assignments and projects have. Once the 
+    student completes the assignment or project, they can then check off/delete
+    the assignment or project from the text file.
+
+3. What will you learn from developing this program?
+    
+    I will learn how to handle datetime more effectively. I want 
+    to get better at understanding text files. So this program will
+    solidify my understand of how to add, delete, and change text files.
+    It will also help me increase my understanding of functions and testing functions.
+
+4. What Python modules will your program use?
+    
+    Datetime, maybe pandas, and tests will use pytest. 
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+
+    def read_file(file)
+        '''Reading the contents of the text file and create it 
+        into a dictionary.
+        Parameters:
+            file: the name of the text file.
+        Return: a dictionary
+
+    def adding_task(file, name, deadline, priority)
+        '''Adding an assignment or project to the text file. then
+            will be added what number of priority it will be in.
+        Parameters:
+            file: The text file
+            name: The name of the project or assignment
+            deadline: the date of the deadline
+            priority: number of priority from 1 to 5
+        Return: Adding the assignment or project to the file
+        '''
+
+    def display_all_tasks(file):
+        '''' Displaying all of the tasks for the week.
+        Parameters:
+            file: text file
+        Return: Displaying all the assignments and projects in the file
+        '''
+
+    def display_day_tasks(file, date)
+        ''' Displaying the day of the date the user chose. Then 
+        it will display all the assignments and projects for 
+        that day.
+        Parameters:
+            file: the text file
+            date: The date they would like to see
+        Return: Display the assignments and projects for that specific day.
+        '''
+
+    def mark_complete(file, name):
+        '''Find the name in the file and then mark/delete the assignment 
+        or project from the file.
+        Parameters:
+            file: The text file
+            name: Name of the assignment or project they want to see
+        Return: Deletes the name from the file.
+
+
+6. List the names of the test functions you will write.
+    
+    def test_read_file()
+        '''
+        Verify that the read_file function works correctly.
+        '''
+
+    def test_adding_task()
+        '''
+        Verifying that adding_task function works correctly.
+        '''
+
+    def test_display_all_tasks()
+        '''
+        Verifying that display_all_tasks works correctly.
+        '''
+
+    def test_display_day_tasks()
+        '''
+        Verifying that display_day_tasks works correctly.
+        '''
+
+    def test_mark_complete()
+        '''
+        Verifying that mark_complete works correctly.
+        '''
